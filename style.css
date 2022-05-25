@@ -1,0 +1,100 @@
+.oya{
+   position:relative
+    top: -5px;
+    left: 0px;
+    width: 1036px;
+    height: 3826px;
+    background-image: url("http://system.style-arts.jp/wp-content/uploads/2022/05/画像-5.png");
+    
+    }
+    
+ 
+    
+    .bluebox{
+    position:absolute;
+    top: 28px;
+    left: 30px;
+    width: 992px;
+    height: 483px;
+    background: #D1EDF9 0% 0% no-repeat padding-box;
+    border: 2px solid #000000;
+    opacity: 1;
+    
+    
+    }
+    
+    .white_box{
+    position:absolute;
+    top: 558px;
+    left: 60px;
+    width: 989px;
+    height: 288px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #707070;
+    opacity: 1;
+    }
+    
+    .white_box p{
+    text-align: center;
+    margin:0;
+    position: relative;
+    top: 70px;
+    font: normal normal normal 20px/40px Hiragino Kaku Gothic ProN;
+    
+    }
+    
+   .woman{
+    position:absolute;
+    transform: scale(-1, 1);
+    top: 904px;
+    left: 64px;
+    width: 327px;
+    height: 189px;
+    opacity: 1;
+    
+    }
+    
+    
+    
+    .inoshishi{
+    position:absolute !important;
+    top: 1050px;
+    }
+
+
+    .white_box_under{
+    position:absolute;
+   text-align: center;
+    top: 1550px;
+    left: 25px;
+    width: 986px;
+    height: 681px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #707070;
+    opacity: 1;
+    }
+
+.white_box_syd h2{
+ background:transparent;
+position:absolute;
+top:1400px;
+left:400px;
+height: 79px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 6px solid #707070;
+opacity: 1;
+}
+
+.white_box_under span{
+font: normal normal normal 26px/40px Hiragino Kaku Gothic ProN;
+width: 149px;
+height: 65px;
+background: #FCBDCE 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+
+}
+
+.white_box_syd{
+}
