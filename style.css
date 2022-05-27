@@ -15,15 +15,24 @@
  
     
  .bluebox{
-    display:flex;
-    flex-flow: column;
-
+    position: relative;
     height:60vh;
     background: #D1EDF9 0% 0% no-repeat padding-box;
     border: 2px solid #000000;
     opacity: 1;
-    
-    
+}
+
+.page-title {
+    /* blueboxにあった２つを移動 */
+    display:flex;
+    flex-flow: column;
+    /*
+      親要素(bluebox)にrelativeを指定して，
+      親要素の範囲でabsoluteを使うと，
+      右上の実装が楽になる！
+    */
+    position: absolute;
+    right: 0;
     }
 
 .long_child{
@@ -37,10 +46,11 @@
     border: 3px solid #707070;
     opacity: 1;
     position: relative;
-    width: 10vw;
-    left: 83vw;
-    bottom: 28vh;
+    /* width: 10vw; */
+    /* left: 83vw; */
+    /* bottom: 28vh; */
     font-size: 3vh;
+    width: 2em; /* emは文字サイズの何倍かで指定できる．文字サイズが18pxだったら2emは36px */
 }
     
     .white_box{
